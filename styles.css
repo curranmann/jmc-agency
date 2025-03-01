@@ -1,0 +1,9 @@
+/* Original CSS from <style> tag */
+.navbar-container { /* styles */ }
+.feature-image { /* common styles */ }
+.feature-image-service-area {
+    background-image: url(https://cdn.goodzer.com/img/website/dashboard_feature_service_area.556a5d670f82.jpg);
+    background-size: cover;
+    background-position: bottom center;
+}
+/* Add more classes for other inline styles */
