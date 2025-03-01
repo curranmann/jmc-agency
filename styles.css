@@ -1,9 +1,141 @@
-/* Original CSS from <style> tag */
-.navbar-container { /* styles */ }
-.feature-image { /* common styles */ }
-.feature-image-service-area {
-    background-image: url(https://cdn.goodzer.com/img/website/dashboard_feature_service_area.556a5d670f82.jpg);
-    background-size: cover;
-    background-position: bottom center;
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
-/* Add more classes for other inline styles */
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo svg {
+    display: block;
+}
+
+.navbar-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #0055A4;
+    font-weight: bold;
+}
+
+.navbar-links a:hover {
+    color: #003366;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f5f5f5;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #0055A4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #003366;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    vertical-align: top;
+}
+
+.feature-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature-image-service-area {
+    background-image: url('https://cdn.goodzer.com/img/website/dashboard_feature_service_area.556a5d670f82.jpg');
+}
+
+.feature-image-exclusive {
+    background-image: url('https://via.placeholder.com/300x200?text=Exclusive+Leads'); /* Replace with actual image */
+}
+
+.feature-image-realtime {
+    background-image: url('https://via.placeholder.com/300x200?text=Real-Time+Delivery'); /* Replace with actual image */
+}
+
+.feature-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #0055A4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
